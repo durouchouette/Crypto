@@ -22,6 +22,7 @@
 		C42C8BFF29BB8FD90043AA7B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BFE29BB8FD90043AA7B /* HomeViewModel.swift */; };
 		C42C8C0229BBCB140043AA7B /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0129BBCB140043AA7B /* CoinDataService.swift */; };
 		C42C8C0529BF6BE40043AA7B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0429BF6BE40043AA7B /* NetworkingManager.swift */; };
+		C42C8C0C29C10CF40043AA7B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0B29C10CF40043AA7B /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		C42C8BFE29BB8FD90043AA7B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C42C8C0129BBCB140043AA7B /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		C42C8C0429BF6BE40043AA7B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		C42C8C0B29C10CF40043AA7B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				C42C8BEE29BB6EB40043AA7B /* CircleButton */,
+				C42C8C0B29C10CF40043AA7B /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				C42C8BE629BA49F60043AA7B /* Color.swift in Sources */,
 				C42C8C0529BF6BE40043AA7B /* NetworkingManager.swift in Sources */,
 				C42C8BF229BB72440043AA7B /* CircleButtonAnimationView.swift in Sources */,
+				C42C8C0C29C10CF40043AA7B /* SearchBarView.swift in Sources */,
 				C42C8BFB29BB81850043AA7B /* PreviewProvider.swift in Sources */,
 				C42C8BFD29BB849E0043AA7B /* Double.swift in Sources */,
 				C42C8BF529BB76F20043AA7B /* CoinModel.swift in Sources */,
