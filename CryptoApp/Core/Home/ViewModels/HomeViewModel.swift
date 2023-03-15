@@ -23,10 +23,27 @@ class HomeViewModel: ObservableObject {
     }
     
     func addSubscribers() {
-        dataService.$allCoins
+        // updates allCoins 
+        $searchText
+            .combineLatest(dataService.$allCoins) // when all coins change or search text changes, the following code is called
+            .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main) // prevent the UI from reloading if the user types really fast
+            .map(filterCoins)
             .sink { [weak self] returnedCoins in
                 self?.allCoins = returnedCoins
             }
             .store(in: &cancellables)
+    }
+    
+    private func filterCoins(text: String, coins: [CoinModel]) -> [CoinModel] {
+        guard !text.isEmpty else {
+            return coins
+        }
+        
+        let lowercasedText = text.lowercased()
+        return coins.filter { (coin) in
+            return coin.name.lowercased().contains(lowercasedText) ||
+                coin.symbol.lowercased().contains(lowercasedText) ||
+                coin.id.lowercased().contains(lowercasedText)
+        }
     }
 }
