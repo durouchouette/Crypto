@@ -10,7 +10,6 @@
 		C42C8BD329BA41700043AA7B /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BD229BA41700043AA7B /* CryptoAppApp.swift */; };
 		C42C8BD529BA41700043AA7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BD429BA41700043AA7B /* ContentView.swift */; };
 		C42C8BDA29BA41710043AA7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42C8BD929BA41710043AA7B /* Preview Assets.xcassets */; };
-		C42C8BE129BA48680043AA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42C8BE029BA48680043AA7B /* Assets.xcassets */; };
 		C42C8BE629BA49F60043AA7B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BE529BA49F60043AA7B /* Color.swift */; };
 		C42C8BEC29BB6DEC0043AA7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BEB29BB6DEC0043AA7B /* HomeView.swift */; };
 		C42C8BF029BB6EC10043AA7B /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8BEF29BB6EC10043AA7B /* CircleButtonView.swift */; };
@@ -23,6 +22,7 @@
 		C42C8C0229BBCB140043AA7B /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0129BBCB140043AA7B /* CoinDataService.swift */; };
 		C42C8C0529BF6BE40043AA7B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0429BF6BE40043AA7B /* NetworkingManager.swift */; };
 		C42C8C0C29C10CF40043AA7B /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C8C0B29C10CF40043AA7B /* SearchBarView.swift */; };
+		C438490929CB7E0700D59D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C438490829CB7E0700D59D42 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		C42C8BD229BA41700043AA7B /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		C42C8BD429BA41700043AA7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C42C8BD929BA41710043AA7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C42C8BE029BA48680043AA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		C42C8BE529BA49F60043AA7B /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C42C8BEB29BB6DEC0043AA7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C42C8BEF29BB6EC10043AA7B /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		C42C8C0129BBCB140043AA7B /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		C42C8C0429BF6BE40043AA7B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		C42C8C0B29C10CF40043AA7B /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C438490829CB7E0700D59D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				C42C8BF329BB76D00043AA7B /* Models */,
 				C42C8BE729BB6DBA0043AA7B /* Core */,
 				C42C8BD429BA41700043AA7B /* ContentView.swift */,
-				C42C8BE029BA48680043AA7B /* Assets.xcassets */,
+				C438490829CB7E0700D59D42 /* Assets.xcassets */,
 				C42C8BD829BA41710043AA7B /* Preview Content */,
 			);
 			path = CryptoApp;
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42C8BDA29BA41710043AA7B /* Preview Assets.xcassets in Resources */,
-				C42C8BE129BA48680043AA7B /* Assets.xcassets in Resources */,
+				C438490929CB7E0700D59D42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
